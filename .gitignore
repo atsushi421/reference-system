@@ -8,3 +8,8 @@ doxybook2**
 bin
 include
 lib
+
+# add
+build/
+install/
+log/

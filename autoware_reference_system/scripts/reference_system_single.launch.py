@@ -33,7 +33,7 @@ def generate_launch_description():  # noqa: D103
         Trace(
             session_name='trace-reference-system',
             append_timestamp=True,
-            base_path=os.path.dirname(os.path.realpath(__file__)),
+            base_path='/home/saitamaemb4/reference_system_analyze/ctfs/',
             events_ust=['ros2*'],
             events_kernel=[],
         ),
