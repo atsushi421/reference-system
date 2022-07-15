@@ -1,8 +1,11 @@
+# Edit maximum number for pseudo-work
+Edit value in lines 42~ in `./autoware_reference_system/include/autoware_reference_system/system/timing/default.hpp`
+
 # Set number of cores
 ```
-$ cat /proc/cpuinfo   | grep processor
+$ cat /proc/cpuinfo | grep processor
 $ sudo bash ~/reference-system/enable_cpucores.sh [NUMBER_OF_CORES]
-$ cat /proc/cpuinfo   | grep processor
+$ cat /proc/cpuinfo | grep processor
 ```
 
 # Run and trace autoware reference system
